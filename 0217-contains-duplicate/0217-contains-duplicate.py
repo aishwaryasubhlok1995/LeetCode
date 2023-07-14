@@ -4,8 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        lenOfList = len(nums)
-        if len(set(nums)) == lenOfList:
-            return False
-        return True
+        s =set()
+        for i in range(len(nums)):
+            if nums[i] in s:
+                return True
+            else:
+                s.add(nums[i])
+        return False
         
