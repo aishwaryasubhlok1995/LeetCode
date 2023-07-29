@@ -7,10 +7,11 @@ class Solution(object):
         dict = {}
         for i in range(len(strs)):
             res = []
-            if ''.join(sorted(strs[i])) in dict.keys():
-                res = dict.get(''.join(sorted(strs[i])))
+            sortedString = ''.join(sorted(strs[i]))
+            if sortedString in dict.keys():
+                res = dict.get(sortedString)
             else:
-                dict[''.join(sorted(strs[i]))] = res
+                dict[sortedString] = res
             res.append((strs[i]))
         return dict.values()
             
