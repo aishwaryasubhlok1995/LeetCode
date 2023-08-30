@@ -25,14 +25,14 @@ class Solution(object):
         """
         if root == None:
             return False
-        if self.isSameTree(root, subRoot) == True:
+        if self.isSameTree(root, subRoot):
             return True
         else:
             if root.left != None:
-                if self.isSubtree(root.left, subRoot) == True:
+                if self.isSubtree(root.left, subRoot):
                     return True
             if root.right != None:
-                 if self.isSubtree(root.right, subRoot) == True:
+                 if self.isSubtree(root.right, subRoot):
                     return True
                 
 
