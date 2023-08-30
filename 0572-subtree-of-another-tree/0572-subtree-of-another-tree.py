@@ -28,12 +28,10 @@ class Solution(object):
         if self.isSameTree(root, subRoot):
             return True
         else:
-            if root.left != None:
-                if self.isSubtree(root.left, subRoot):
-                    return True
-            if root.right != None:
-                 if self.isSubtree(root.right, subRoot):
-                    return True
+            if self.isSubtree(root.left, subRoot):
+                return True
+            if self.isSubtree(root.right, subRoot):
+                return True
                 
 
             
