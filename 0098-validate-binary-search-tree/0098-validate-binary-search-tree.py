@@ -10,13 +10,17 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
-        minRange = -math.inf
         maxRange = math.inf
-        def validate(root, minRange, maxRange):
+        minRange = -math.inf
+        def validateBinaryTree(root, minRange, maxRange):
             if root == None:
                 return True
-            if root.val >= maxRange or root.val <= minRange:
+            if root.val <= minRange or root.val >= maxRange:
                 return False
-            return validate(root.left, minRange, root.val) and validate(root.right, root.val, maxRange)
-        return validate(root, minRange, maxRange)
+            return validateBinaryTree(root.left, minRange, root.val) and validateBinaryTree(root.right, root.val, maxRange)
+        
+        return validateBinaryTree(root, minRange, maxRange)
+       
             
+            
+                
