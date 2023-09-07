@@ -6,9 +6,6 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        if root == None:
-            return False
-        totalSum = 0
         def calculateSum(root, totalSum):
             if root == None:
                 return False
@@ -19,7 +16,7 @@ class Solution:
             else:
                 totalSum  += root.val
             return calculateSum(root.left, totalSum) or calculateSum(root.right, totalSum)
-        return calculateSum(root, totalSum)
+        return calculateSum(root, 0)
 
         
         
