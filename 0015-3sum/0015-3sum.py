@@ -15,6 +15,7 @@ class Solution:
                 if ans == 0:
                     arr.add((nums[i],nums[j],nums[k]))
                     j += 1
+                    k -= 1
         return arr
         
                     
