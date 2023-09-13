@@ -12,10 +12,7 @@ class Solution:
                 if ans<0:
                     j += 1
                 if ans == 0:
-                    arr = []
-                    arr.append(nums[i])
-                    arr.append(nums[j])
-                    arr.append(nums[k])
+                    arr = [nums[i],nums[j],nums[k]]
                     if arr not in finalAns:
                         finalAns.append(arr)
                     j += 1
