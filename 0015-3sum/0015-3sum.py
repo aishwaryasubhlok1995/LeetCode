@@ -18,7 +18,6 @@ class Solution:
                     arr.append(nums[k])
                     if arr not in finalAns:
                         finalAns.append(arr)
-                        print(arr)
                     j += 1
         return finalAns
         
