@@ -1,14 +1,3 @@
-=begin
-Question 2
-
-Solve the following leetcode problem using Ruby language
-
-21. Merge Two Sorted Lists
-
-(submit screen shot of submission and source code file)
-
-=end
-
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
@@ -21,12 +10,14 @@ Solve the following leetcode problem using Ruby language
 # @param {ListNode} list2
 # @return {ListNode}
 def merge_two_lists(list1, list2)
-    return if !list1 && !list2
-    return list1 unless list2
-    return list2 unless list1
-    if list1.val > list2.val
-        list1, list2 = list2, list1
-    end
+  return list1 unless list2
+  return list2 unless list1
+
+  if list1.val < list2.val
     list1.next = merge_two_lists(list1.next, list2)
-    list1
+    return list1
+  else
+    list2.next = merge_two_lists(list1, list2.next)
+    return list2
+  end
 end
