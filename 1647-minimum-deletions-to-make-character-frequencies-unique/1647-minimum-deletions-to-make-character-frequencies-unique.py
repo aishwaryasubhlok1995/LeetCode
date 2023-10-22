@@ -12,7 +12,6 @@ class Solution(object):
                 if s[j] == i:
                     count += 1
             result.append(count)
-        print(result)
         tempArr = set()
         res = 0
         for i in range(len(result)):
