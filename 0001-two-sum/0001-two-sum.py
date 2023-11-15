@@ -12,6 +12,5 @@ class Solution(object):
                     dict[target - nums[i]] = i
             else:
                 return [i,dict[nums[i]]]
-        return 0
     
         
