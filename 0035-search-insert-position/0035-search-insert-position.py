@@ -11,7 +11,6 @@ class Solution(object):
             return last+1
         while(first<=last):
             mid = (first+last)//2
-            print(mid)
             if target == nums[mid]:
                 return mid
             elif target < nums[mid]:
