@@ -7,10 +7,11 @@ class Solution(object):
         """
         dict = {}
         for i in range(len(nums)):
-            if nums[i] not in dict.keys():   
-                #if target - nums[i] in nums:
-                    dict[target - nums[i]] = i
-            else:
+            if nums[i] in dict.keys():
                 return [i,dict[nums[i]]]
+                #if target - nums[i] in nums:     
+            else:
+                dict[target - nums[i]] = i
+                
     
         
