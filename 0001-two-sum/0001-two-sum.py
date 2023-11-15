@@ -8,8 +8,7 @@ class Solution(object):
         dict = {}
         for i in range(len(nums)):
             if nums[i] in dict.keys():
-                return [i,dict[nums[i]]]
-                #if target - nums[i] in nums:     
+                return [i,dict[nums[i]]]  
             else:
                 dict[target - nums[i]] = i
                 
