@@ -1,25 +1,22 @@
-class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
-        nums.sort()
-        finalAns = []
-        arr = set()
-        for i in range(len(nums)):
-            j = i+1
-            k = len(nums)-1
-            while j<k:
-                ans = nums[i]+nums[j]+nums[k]
-                if ans>0:
-                    k -= 1
-                if ans<0:
-                    j += 1
-                if ans == 0:
-                    arr.add((nums[i],nums[j],nums[k]))
-                    j += 1
-                    k -= 1
-        return arr
-        
-                    
-                
-            
-            
-        
+class Solution(object):
+    def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        nums = sorted(nums)
+        res = set()
+        print(nums)
+        for k in range(len(nums)-2):
+            i = k+1
+            j = len(nums)-1
+            while(i<j):
+                if nums[k]+nums[i]+nums[j] > 0:
+                    j = j-1
+                elif nums[k]+nums[i]+nums[j] < 0:
+                    i = i+1
+                elif nums[k]+nums[i]+nums[j] == 0:
+                    res.add((nums[k],nums[i],nums[j]))
+                    i = i+1
+                    j = j-1
+        return res
