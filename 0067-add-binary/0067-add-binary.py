@@ -16,7 +16,6 @@ class Solution(object):
                 sum = int(a[i]) + carry
             else:
                 sum = int(a[i]) + int(b[j]) + carry
-                
             if sum > 1:
                 carry = 1
                 if sum == 2:
