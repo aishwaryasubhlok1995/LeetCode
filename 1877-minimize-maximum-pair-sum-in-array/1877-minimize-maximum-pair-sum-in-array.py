@@ -9,9 +9,6 @@ class Solution(object):
         j = len(nums)-1
         res = []
         while i<j:
-            
-            print(i,'=',nums[i])
-            print(j , '=', nums[j])
             res.append(nums[i]+nums[j])
             i += 1
             j -= 1
