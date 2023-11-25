@@ -9,8 +9,8 @@ class Solution:
         for i in range(len(ransomNote)):
             if ransomNote[i] in dictMagazine.keys():
                 dictMagazine[ransomNote[i]] -= 1
-                if dictMagazine[ransomNote[i]] == 0:
-                    dictMagazine.pop(ransomNote[i])
+                if dictMagazine[ransomNote[i]] == -1:
+                    return False
             else:
                 return False
         return True
