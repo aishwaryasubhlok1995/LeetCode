@@ -18,5 +18,4 @@ class Solution:
                 high=mid
             if hours > h:
                 low=mid+1
-        print(high)
         return high
