@@ -12,7 +12,7 @@ class Solution:
             elif j<=i or nums[j] == 0:
                 j = j + 1
             else:
-                if j<len(nums) and i<len(nums) and nums[i] == 0 and nums[j] != 0:
+                if nums[i] == 0 and nums[j] != 0:
                     nums[i] = nums[j]
                     nums[j] = 0
                 
