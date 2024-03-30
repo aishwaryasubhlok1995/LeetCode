@@ -6,13 +6,13 @@
 #         self.right = right
 class Solution:
     def calculateLeafLeftNode(self, root, finalList):
+        if root == None:
+            return
         if root.left ==  None and root.right == None:
              finalList.append(root.val)
         else:
-            if root.left != None:
-                self.calculateLeafLeftNode(root.left, finalList)
-            if root.right != None:
-                self.calculateLeafLeftNode(root.right, finalList)
+            self.calculateLeafLeftNode(root.left, finalList)
+            self.calculateLeafLeftNode(root.right, finalList)
             
             
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
