@@ -16,11 +16,9 @@ class Solution:
             
             
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
-        finalList = []
-        self.calculateLeafLeftNode(root1, finalList)
-        finalList1 = finalList
-        finalList = []
-        self.calculateLeafLeftNode(root2, finalList)
-        return True if finalList1 == finalList else False
+        leaf1, leaf2 = [], []
+        self.calculateLeafLeftNode(root1, leaf1)
+        self.calculateLeafLeftNode(root2, leaf2)
+        return leaf1 == leaf2 
             
         
