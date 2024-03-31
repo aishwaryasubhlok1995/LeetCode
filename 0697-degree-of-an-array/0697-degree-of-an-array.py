@@ -16,7 +16,6 @@ class Solution:
         for i in dictCount.keys():
             if dictCount.get(i) == maxFrequency:
                 length = end[i] - start[i] + 1
-                print(length)
                 minLength = min(length, minLength)
         return minLength
         
