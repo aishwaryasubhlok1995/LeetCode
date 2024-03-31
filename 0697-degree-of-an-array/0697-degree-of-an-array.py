@@ -13,7 +13,6 @@ class Solution:
                 end[nums[i]]  = i
         maxFrequency = max(dictCount.values())
         minLength = math.inf
-        print(maxFrequency)
         for i in dictCount.keys():
             if dictCount.get(i) == maxFrequency:
                 length = end[i] - start[i] + 1
