@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def calculateMaxLength(self, prev, curr, length):
+    def calculateMaxLength(self, prev, curr, length, maxlength):
         if curr == None:
             return 1
         else:
@@ -13,11 +13,13 @@ class Solution:
                 length = length + 1
             else:
                 length = 1
-        return max(length, self.calculateMaxLength(curr.val, curr.left, length), self.calculateMaxLength(curr.val, curr.right, length))
+        maxlength = max(maxlength, length)
+        return max(maxlength, self.calculateMaxLength(curr.val, curr.left, length, maxlength), self.calculateMaxLength(curr.val, curr.right, length, maxlength))
    
     def longestConsecutive(self, root: Optional[TreeNode]) -> int: 
         maxLength = 1
-        return max((self.calculateMaxLength(root.val, root.left, maxLength)), (self.calculateMaxLength(root.val, root.right, maxLength)))
+        length = 1
+        return max((self.calculateMaxLength(root.val, root.left, length, maxLength)), (self.calculateMaxLength(root.val, root.right,length, maxLength)))
                  
         
     
