@@ -9,7 +9,8 @@ class Solution:
             if s[i] not in dict:
                 dict[s[i]] = 1
             else:
-                dict[s[i]] += 1        
+                dict[s[i]] += 1 
+                
         while len(dict.keys())> 0 :
             arr = heapq.nlargest(2, dict.keys(), dict.get)
             if finalRes == '':
@@ -23,7 +24,6 @@ class Solution:
             if len(arr) > 1 and finalRes[-1] != arr[1]:
                 finalRes += arr[1]
                 dict[arr[1]] -= 1
-            print(dict)
             if dict[arr[0]] == 0:
                 del dict[arr[0]]
             if len(arr) > 1 and dict[arr[1]] == 0:
