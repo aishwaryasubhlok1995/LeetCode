@@ -1,35 +1,31 @@
 class Solution:
     import heapq
     def reorganizeString(self, s: str) -> str:
-        if len(s) == 1:
-            return s
         dict = {}
         finalRes = ''
+        prevChar = None
         for i in range(len(s)):
             if s[i] not in dict:
                 dict[s[i]] = 1
             else:
                 dict[s[i]] += 1 
                 
-        while len(dict.keys())> 0 :
+        while len(dict)> 0 :
             arr = heapq.nlargest(2, dict.keys(), dict.get)
-            if finalRes == '':
-                finalRes += arr[0]
-                dict[arr[0]] -= 1
-            if len(arr) == 1 and finalRes[-1] == arr[0]:
+            if len(arr) == 1 and dict[arr[0]] > 1:
                 return ""
-            if finalRes[-1] != arr[0]:
+            if prevChar == None or prevChar != arr[0]:
                 finalRes += arr[0]
-                dict[arr[0]] -= 1
-            if len(arr) > 1 and finalRes[-1] != arr[1]:
+                curChar = arr[0]
+            else:
                 finalRes += arr[1]
-                dict[arr[1]] -= 1
-            if dict[arr[0]] == 0:
-                del dict[arr[0]]
-            if len(arr) > 1 and dict[arr[1]] == 0:
-                del dict[arr[1]]
-        if dict == {}:
-            return finalRes
+                curChar = arr[1]
+            prevChar = curChar
+            if dict[curChar]>1:
+                dict[curChar] = dict[curChar]-1
+            else:
+                del dict[curChar]
+        return finalRes
             
             
             
