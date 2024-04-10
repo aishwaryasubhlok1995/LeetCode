@@ -9,10 +9,8 @@ class Solution:
                 dict[s[i]] = 1
             else:
                 dict[s[i]] += 1
-        print(heapq.nlargest(1, dict.keys(), dict.get))
         while len(dict):
             char = heapq.nlargest(1, dict.keys(), dict.get)
-            print(char)
             countOfChar += 1
             if countOfChar <= 9:
                 res = res + dict[char[0]]
