@@ -5,7 +5,7 @@ class Solution:
         res = 0
         countOfChar = 0
         for i in range(len(s)):
-            if s[i] not in dict.keys():
+            if s[i] not in dict:
                 dict[s[i]] = 1
             else:
                 dict[s[i]] += 1
