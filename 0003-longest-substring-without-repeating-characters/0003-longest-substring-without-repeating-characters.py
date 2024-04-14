@@ -10,9 +10,7 @@ class Solution:
                 maxlen = max(maxlen, len(setOfItems))
                 j = j + 1
             else: 
-                if s[i] != s[j] :
-                    setOfItems.remove(s[i])
-                if s[i] == s[j]:
+                if s[i] != s[j] or s[i] == s[j]:
                     setOfItems.remove(s[i])
                 i = i+1
         return maxlen
