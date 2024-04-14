@@ -8,8 +8,6 @@ class Solution:
                 A += 1
             if colors[i-1] == colors[i+1] and colors[i-1] == 'B' and colors[i] == 'B':
                 B += 1
-        print('A',A)
-        print('B',B)
         if A>B:
             return True
         return False
