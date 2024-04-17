@@ -9,11 +9,8 @@ class Solution:
                 i += 1
                 j -=1
             else:
-                print(s[i])
-                print(s[j])
                 temp = s[i:j]  
                 temp1 = s[i+1:j+1]
-                print(temp1)
                 return temp == temp[::-1] or temp1 == temp1[::-1] 
         
         
