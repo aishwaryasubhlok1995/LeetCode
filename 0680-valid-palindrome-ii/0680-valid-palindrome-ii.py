@@ -1,19 +1,21 @@
-class Solution(object):
-    def validPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        i, r = 0, len(s)-1
-        while(i<r):
-            if(s[i]==s[r]):
-                i = i+1
-                r = r-1
-            else:
-                slicedString =  s[i:r] 
-                slicedString1 =  s[i+1:r+1]
-                return(slicedString == slicedString[::-1] or slicedString1 == slicedString1[::-1])
-        if(i>=r):
+class Solution:
+    def validPalindrome(self, s: str) -> bool:
+        i = 0 
+        j = len(s)-1
+        reverseStr = ''
+        if s[::-1] == s:
             return True
+        while i!=j:
+            if s[i] == s[j]:
+                i += 1
+                j -=1
+            else:
+                temp = s[:i:] + s[i+1::] 
+                temp1 = s[:j:] + s[j+1::]
+                return temp == temp[::-1] or temp1 == temp1[::-1] 
+        
+        
+                    
+            
                 
-                            
+        
