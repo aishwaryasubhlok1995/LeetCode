@@ -24,11 +24,9 @@ class Solution:
                 i = i + 1
                 j += 1
         
-        print(maxElement)
         for nums in range(len(grumpy)):
             if grumpy[nums] == 0:
                 ans += customers[nums]
-        print(ans)
         return ans+maxElement
             
                 
