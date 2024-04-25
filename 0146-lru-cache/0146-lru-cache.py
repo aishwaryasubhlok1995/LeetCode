@@ -15,7 +15,7 @@ class LRUCache:
         
 
     def put(self, key: int, value: int) -> None:
-        if len(self.pipe) == self.capacity and key not in self.pipe:
+        if len(self.pipe) == self.capacity and key not in self.cache:
             elementToRemove = self.pipe.pop(0)
             del self.cache[elementToRemove]
         #if len(self.pipe) <= self.capacity or ((len(self.pipe) != 0 and self.pipe[len(self.pipe)-1] != key)): 
