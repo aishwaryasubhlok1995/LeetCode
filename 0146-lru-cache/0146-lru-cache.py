@@ -19,7 +19,7 @@ class LRUCache:
             elementToRemove = self.pipe.pop(0)
             del self.cache[elementToRemove]
         #if len(self.pipe) <= self.capacity or ((len(self.pipe) != 0 and self.pipe[len(self.pipe)-1] != key)): 
-        if key in self.pipe:
+        if key in self.cache:
             self.pipe.remove(key)
         self.pipe.append(key)
         self.cache[key] = value
