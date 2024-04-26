@@ -1,28 +1,53 @@
+class Node:
+    def __init__(self, key, value):
+        self.key= key
+        self.val = value
+        self.prev = None
+        self.next = None
+        
 class LRUCache:
 
     def __init__(self, capacity: int):
-        self.cache = {};
-        self.pipe = []
-        self.capacity = capacity
+        self.cap = capacity
+        self.cache = {}
+        self.LRU = Node(0, 0)
+        self.MRU = Node(0, 0)
+        self.LRU.next = self.MRU
+        self.MRU.prev = self.LRU
+    
+    def remove(Self, Node):
+        prev  = Node.prev
+        nextt = Node.next 
+        prev.next = nextt
+        nextt.prev = prev
+    
+    def insert(self, Node):
+        prev = self.MRU.prev
+        nextt = self.MRU
+        prev.next = self.MRU.prev = Node
+        Node.prev = prev 
+        Node.next = self.MRU 
+    
             
     def get(self, key: int) -> int:
         if key in self.cache:
-            self.pipe.remove(key)
-            self.pipe.append(key)
-            return self.cache[key]
-        else:
-            return -1
+            self.remove(self.cache[key])
+            self.insert(self.cache[key])
+            return self.cache[key].val
+        return -1
         
-
+        
     def put(self, key: int, value: int) -> None:
-        if len(self.pipe) == self.capacity and key not in self.cache:
-            elementToRemove = self.pipe.pop(0)
-            del self.cache[elementToRemove]
-        #if len(self.pipe) <= self.capacity or ((len(self.pipe) != 0 and self.pipe[len(self.pipe)-1] != key)): 
         if key in self.cache:
-            self.pipe.remove(key)
-        self.pipe.append(key)
-        self.cache[key] = value
+             self.remove(self.cache[key])
+        self.cache[key] = Node(key, value)
+        self.insert( self.cache[key])
+        
+        if len(self.cache) > self.cap:
+            leastRu = self.LRU.next 
+            self.remove(leastRu)
+            del self.cache[leastRu.key]
+        
             
        
 # Your LRUCache object will be instantiated and called as such:
