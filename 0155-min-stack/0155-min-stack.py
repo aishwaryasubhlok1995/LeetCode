@@ -16,7 +16,6 @@ class MinStack:
         
 
     def getMin(self) -> int:
-       \
         return heapq.nsmallest(1,  self.arr)[0]
         
 
