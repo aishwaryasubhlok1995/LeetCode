@@ -1,7 +1,6 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals = sorted(intervals)
-        listIndexesToRemove = []
         i =1
         while i < len(intervals):
             if intervals[i-1][1] >= intervals[i][0]:
