@@ -3,20 +3,27 @@ class MinStack:
 
     def __init__(self):
         self.arr = []
+        self.minimum = math.inf
 
     def push(self, val: int) -> None:
-        return self.arr.append(val)
+        self.minimum = min(self.minimum, val)
+        self.arr.append([val, self.minimum])
 
     def pop(self) -> None:
+        if len(self.arr) == 1:
+            self.minimum = math.inf
+        else:
+            self.minimum = self.arr[-2][1]
         return self.arr.pop(-1)
+        
         
 
     def top(self) -> int:
-        return self.arr[-1]
+        return self.arr[-1][0]
         
 
     def getMin(self) -> int:
-        return heapq.nsmallest(1,  self.arr)[0]
+        return self.arr[-1][1]
         
 
 
