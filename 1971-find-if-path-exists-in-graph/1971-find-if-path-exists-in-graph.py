@@ -7,6 +7,8 @@ class Solution:
             if visited[node] == False:
                 if self.checkPath(adj, node, destination, visited):
                     return True
+        return False
+                   
         
     
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
