@@ -7,7 +7,6 @@ class Solution:
             if visited[node] == False:
                 if self.checkPath(adj, node, destination, visited):
                     return True
-        return False
                    
         
     
