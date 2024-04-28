@@ -11,7 +11,6 @@ class Solution:
                 if visited[n] == False:
                     visited[n] = True
                     arr.append(n)
-        return False
                 
             
                    
