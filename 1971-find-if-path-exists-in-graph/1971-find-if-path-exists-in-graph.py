@@ -1,13 +1,19 @@
 class Solution:
     def checkPath(self, adj, source, destination, visited):
-        if source == destination:
-            return True
+        arr = deque()
         visited[source] = True
-        for node in adj[source]:
-            if visited[node] == False:
-                if self.checkPath(adj, node, destination, visited):
-                    return True
+        arr.append(source)
+        while arr:
+            source = arr.popleft()
+            if source == destination:
+                return True
+            for n in adj[source]:
+                if visited[n] == False:
+                    visited[n] = True
+                    arr.append(n)
         return False
+                
+            
                    
         
     
