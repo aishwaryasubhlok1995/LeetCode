@@ -2,13 +2,10 @@ class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
         
         def bfs(i):
-            print(i)
             visited[i] = True
             for node in (adj[i]):
                 if visited[node] == False:
                     bfs(node)
-                
-            
         
         adj = [[] for i in range(n)]
         visited = [False]*n
