@@ -5,16 +5,13 @@ class Solution:
         queueList = deque()
         for i in prerequisites:
             adj[i[1]].append(i[0])
-        print(adj)
         degree = [0]*numCourses
         for i in adj:
             for j in range(len(i)):
                 degree[i[j]] += 1
-        print(degree)
         for i in range(numCourses):
             if degree[i] == 0:
                 queueList.append(i)
-        print(queueList)
         while queueList:
             node = queueList.popleft()
             numprocessed += 1
