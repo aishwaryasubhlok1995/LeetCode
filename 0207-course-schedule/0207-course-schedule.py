@@ -18,10 +18,10 @@ class Solution:
         while queueList:
             node = queueList.popleft()
             numprocessed += 1
-            for i in range(len(adj[node])):
-                degree[adj[node][i]] -= 1
-                if degree[adj[node][i]] == 0:
-                     queueList.append(adj[node][i])
+            for i in adj[node]:
+                degree[i] -= 1
+                if degree[i] == 0:
+                     queueList.append(i)
         if numprocessed == numCourses:
             return True
         return False
