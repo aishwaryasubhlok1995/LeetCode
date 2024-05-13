@@ -11,7 +11,6 @@ class Solution:
                 if (i,j) not in visited and grid[i][j] == 2:
                     queueList.append([i, j])
                     visited.add((i, j))
-        print(queueList)
         while queueList:
             element = queueList.popleft()
             for position in directions:
