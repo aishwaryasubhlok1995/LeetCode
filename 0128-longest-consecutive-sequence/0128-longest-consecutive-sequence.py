@@ -2,7 +2,6 @@ class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         nums = set(nums)
         maxCount = 0
-        print(nums)
         for i in nums:
             if (i-1) in nums:
                 continue
