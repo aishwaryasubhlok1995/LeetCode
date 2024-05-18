@@ -1,23 +1,23 @@
-class Solution(object):
-    def longestConsecutive(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
         nums = set(nums)
-        longNumber = 0
-        if len(nums) == 0:
-            return 0
+        maxCount = 0
+        dict  = {}
         for i in nums:
-            counter = 1
-            number = i-1
-            if number in nums:
-                continue
-            else:
-                while i+1 in nums:
-                    counter = counter + 1
-                    i = i + 1
-                longNumber = max(longNumber, counter)
-        return longNumber
-                    
+            no = i-1
+            count = 1
+            while no in nums:
+                if no in dict:
+                    count += dict[no]
+                    break
+                else:
+                    no = no -1
+                    count += 1
+            dict[i] = count 
+            maxCount = max(count, maxCount)
+        return maxCount
+                
+                
+            
+            
         
