@@ -2,20 +2,19 @@ class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         nums = set(nums)
         maxCount = 0
-        dict  = {}
+        print(nums)
         for i in nums:
-            no = i-1
+            if (i-1) in nums:
+                continue
+            nextNum = i+1
             count = 1
-            while no in nums:
-                if no in dict:
-                    count += dict[no]
-                    break
-                else:
-                    no = no -1
-                    count += 1
-            dict[i] = count 
-            maxCount = max(count, maxCount)
+            while nextNum in nums:
+                count += 1
+                nextNum = nextNum+1
+            maxCount = max(maxCount, count)
         return maxCount
+                
+            
                 
                 
             
