@@ -2,7 +2,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         ans = set()
         nums = sorted(nums)
-        for i in range(len(nums)-2):
+        for i in range(len(nums)):
             start = i+1
             end = len(nums)-1
             while start<end:
