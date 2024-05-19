@@ -1,22 +1,35 @@
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
-        dictCount = {}
-        start = {}
-        end = {}
+        #find degree first and gather elements which is giving me that degree and comapre length
+        dict = {}
+        count = 0
         for i in range(len(nums)):
-            if nums[i] not in dictCount:
-                dictCount[nums[i]] = 1
-                start[nums[i]]  = i
-                end[nums[i]]  = i
+            if nums[i] in dict:
+                tempArray = dict[nums[i]]
+                tempArray[0] += 1
+                tempArray[2]  = i - tempArray[1]
             else:
-                dictCount[nums[i]] += 1
-                end[nums[i]]  = i
-        maxFrequency = max(dictCount.values())
-        minLength = math.inf
-        for i in dictCount.keys():
-            if dictCount.get(i) == maxFrequency:
-                length = end[i] - start[i] + 1
-                minLength = min(length, minLength)
-        return minLength
+                dict[nums[i]] = [1, i, i]
+        print(dict)
+        TtempArray = sorted(dict.values())
+        TtempArray = TtempArray[::-1]
+        FinalMinValue = math.inf
+        degree = TtempArray[0][0]
+        for i in TtempArray:
+            if i[0] == degree:
+                FinalMinValue = min(FinalMinValue, i[2])
+            else:
+                break
+        print(FinalMinValue)
+        if degree == 1:
+            return 1
+        return FinalMinValue + 1
+      
         
+       
+            
+            
+                
+            
+            
         
