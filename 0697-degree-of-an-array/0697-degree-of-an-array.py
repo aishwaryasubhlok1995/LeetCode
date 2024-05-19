@@ -10,7 +10,6 @@ class Solution:
                 tempArray[2]  = i - tempArray[1]
             else:
                 dict[nums[i]] = [1, i, i]
-        print(dict)
         TtempArray = sorted(dict.values())
         TtempArray = TtempArray[::-1]
         FinalMinValue = math.inf
@@ -20,7 +19,6 @@ class Solution:
                 FinalMinValue = min(FinalMinValue, i[2])
             else:
                 break
-        print(FinalMinValue)
         if degree == 1:
             return 1
         return FinalMinValue + 1
