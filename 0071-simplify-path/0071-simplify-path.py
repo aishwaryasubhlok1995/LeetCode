@@ -3,10 +3,9 @@ class Solution:
         returnStr = ''
         stack = []
         for i in (path.split('/')):
-            if i == '..':            
-                if len(stack) >= 1:
-                    stack.pop(-1)
-            elif i is not '' and i != '.':
+            if i == '..' and len(stack) >= 1:            
+                stack.pop(-1)
+            elif i is not '' and i != '.' and i != '..':
                 stack.append(i)
         if len(stack) == 0:
             return '/'
