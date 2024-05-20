@@ -6,9 +6,7 @@ class Solution:
             if i == '..':            
                 if len(stack) >= 1:
                     stack.pop(-1)
-            elif i is '.':
-                continue
-            elif i is not '':
+            elif i is not '' and i != '.':
                 stack.append(i)
         if len(stack) == 0:
             return '/'
