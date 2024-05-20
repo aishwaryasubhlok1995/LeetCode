@@ -9,9 +9,6 @@ class Solution:
         for i in adj:
             for j in i:
                 indegree[j] +=  1
-        print(adj)
-
-        print(indegree)
         for i in range(len(indegree)):
             if indegree[i] ==0:
                 queList.append(i)
