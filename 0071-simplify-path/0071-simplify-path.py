@@ -3,7 +3,7 @@ class Solution:
         returnStr = ''
         stack = []
         for i in (path.split('/')):
-            if i == '..' and len(stack) >= 1:            
+            if i == '..' and len(stack) > 0:            
                 stack.pop(-1)
             elif i is not '' and i != '.' and i != '..':
                 stack.append(i)
