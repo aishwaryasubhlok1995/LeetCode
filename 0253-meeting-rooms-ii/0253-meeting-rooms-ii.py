@@ -1,18 +1,25 @@
 class Solution:
     import heapq
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        meetingRooms = 1 
+        listOfAvailbilty = []
         intervals = sorted(intervals)
-        print(intervals)
-        meetingArray = [intervals[0][1]]
-        heapq.heapify(meetingArray)
-        for i in range(1, len(intervals)):
-            if intervals[i][0] < meetingArray[0]:
-                meetingRooms += 1
+        countOfRooms = 1
+        listOfAvailbilty.append(intervals[0][1])
+        heapq.heapify(listOfAvailbilty)
+        for i in range(1, len(intervals)): 
+            ans = heapq.nsmallest(1, listOfAvailbilty)
+            print(intervals[i][1], ans[0])
+            if intervals[i][0] < ans[0]:
+                countOfRooms += 1
+                print('here')
+                heapq.heappush(listOfAvailbilty, intervals[i][1])
             else:
-                heapq.heappop(meetingArray)
-            heapq.heappush(meetingArray,intervals[i][1])    
-        return meetingRooms
+                print('her1e')
+                heapq.heapreplace(listOfAvailbilty, intervals[i][1])
+        return countOfRooms
+        
+        
+        
                     
             
             
