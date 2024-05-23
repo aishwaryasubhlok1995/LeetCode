@@ -11,7 +11,6 @@ class Solution:
         while curr.next != None:
             curr = curr.next
             temp.append(curr.val)
-        print(temp)
         if temp == temp[::-1]:
             return True
         return False
