@@ -9,7 +9,5 @@ class Solution:
                 i = mid+1
             else:
                 j = mid    
-        if nums[i]<nums[j]:
-            return nums[i]
-        return nums[j]
+        return nums[i]
         
