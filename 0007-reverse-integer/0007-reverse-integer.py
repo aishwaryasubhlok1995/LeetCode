@@ -8,7 +8,7 @@ class Solution:
         while x>0:
             reverseNo = reverseNo*10 + x%10
             x = x//10
-        if reverseNo > 2**31 or reverseNo < -1*(2**31):
+        if reverseNo > (2**31):
             return 0
         if negative:
             return -1*reverseNo
