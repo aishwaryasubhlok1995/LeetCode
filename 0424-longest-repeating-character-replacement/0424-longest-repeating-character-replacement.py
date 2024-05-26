@@ -4,9 +4,9 @@ class Solution:
         j = 0
         dictChar = {s[j]:1}
         maxLen = 1
-        sumOccurence = 0
+        maxaVal = 1
         while j<len(s)-1:
-            if sumOccurence <= k:
+            if  j -i +1-maxaVal <= k:
                 maxLen = max(maxLen, (j -i +1))
                 j += 1
                 if s[j] not in dictChar:
@@ -20,8 +20,7 @@ class Solution:
                     del dictChar[s[i]]
                 i += 1 
             maxaVal = max(dictChar.values())
-            sumOccurence = j -i +1-maxaVal
-        if sumOccurence <= k:
+        if j -i +1-maxaVal <= k:
             maxLen = max(maxLen, (j -i +1))
         return maxLen
                 
