@@ -14,7 +14,6 @@ class Solution:
                 else:
                     dictChar[s[j]] += 1
             else:
-                print(dictChar[s[i]])
                 if dictChar[s[i]] > 0:
                     dictChar[s[i]] =dictChar[s[i]] -1
                 else:
