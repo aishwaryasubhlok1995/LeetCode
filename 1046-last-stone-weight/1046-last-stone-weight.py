@@ -10,5 +10,4 @@ class Solution:
             stones.remove(temp[1])
         if len(stones) > 0:
             return stones[0]
-        else:
-            return 0
+        return 0
