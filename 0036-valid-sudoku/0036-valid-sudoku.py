@@ -20,8 +20,7 @@ class Solution:
                     if key not in visitedDict:
                         visitedDict[key] = set(board[i][j])
                     else:
-                        keySet = visitedDict[key]
-                        if board[i][j] in keySet:
+                        if board[i][j] in visitedDict[key]:
                             return False
                         visitedDict[key].add(board[i][j])
                 if board[j][i] != '.':
