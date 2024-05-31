@@ -4,8 +4,6 @@ class Solution:
             #initially keep i stable and jsut extend j 
             # when j reaches 9- #increase I and make j to 0 
             
-        visitedI = set()
-        vistedJ = set()
         visitedDict = {}
         i = 0 
         j = 0 
