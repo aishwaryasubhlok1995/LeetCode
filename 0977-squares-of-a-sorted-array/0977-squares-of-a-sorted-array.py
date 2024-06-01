@@ -5,7 +5,6 @@ class Solution:
         i = 0
         j = len(nums) - 1
         while i <= j:
-            print(i, j)
             if abs(nums[i]) > abs(nums[j]):
                 ans[k] = nums[i]*nums[i]
                 i = i+1
