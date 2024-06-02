@@ -9,7 +9,7 @@ class Solution:
                     if detectCycle(node, curr):
                         return True
                     else:
-                        detectCycle(node, curr)
+                        continue
                 elif visited[node] == True and node != source:
                     return True
         visited = [False]*n
