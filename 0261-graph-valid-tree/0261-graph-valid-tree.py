@@ -11,10 +11,7 @@ class Solution:
                     else:
                         detectCycle(node, curr)
                 elif visited[node] == True and node != source:
-                    print('i am in', node ,source)
                     return True
-                
-        
         visited = [False]*n
         adj = [[] for i in range(n)]
         for i in edges:
