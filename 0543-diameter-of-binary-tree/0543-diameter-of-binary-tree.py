@@ -12,11 +12,10 @@ class Solution:
             nonlocal maximumValue
             if node == None:
                 return 0
-            else:
-                left = findHeight(node.left)
-                right = findHeight(node.right)
-                maximumValue = max(maximumValue, (left+right))
-                return max(left, right)+1
+            left = findHeight(node.left)
+            right = findHeight(node.right)
+            maximumValue = max(maximumValue, (left+right))
+            return max(left, right)+1
         findHeight(root)
         return maximumValue
                 
