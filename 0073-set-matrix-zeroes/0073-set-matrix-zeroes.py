@@ -15,7 +15,6 @@ class Solution:
         for column in colmnList:
             for i in range(len(matrix)):
                 matrix[i][column] = 0
-        print(matrix)
         return matrix
                 
         
