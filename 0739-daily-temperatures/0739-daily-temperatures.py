@@ -5,7 +5,7 @@ class Solution:
         for i in range(1, len(temperatures)):
             while len(stackArr) > 0 and temperatures[i] > stackArr[-1][0]:
                 ans[stackArr[-1][1]] = i - stackArr[-1][1]
-                stackArr.pop(-1)
+                stackArr.pop()
             stackArr.append([temperatures[i], i])
 
         return ans
