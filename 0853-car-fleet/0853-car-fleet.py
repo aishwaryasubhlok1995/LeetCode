@@ -7,7 +7,6 @@ class Solution:
             newPositions.append([position[i], speed[i]])
         newPositions = sorted(newPositions)
         newPositions = newPositions[::-1]
-        print(newPositions)
         arr = [(target - newPositions[0][0])/newPositions[0][1]]
         for i in range(1, len(newPositions)):
             time = (target - newPositions[i][0])/newPositions[i][1]
