@@ -18,13 +18,12 @@ class TimeMap:
                 return sortedValues[0][1]
             else:
                 return ""
-        if len(sortedValues) > 1:
-            i = len(sortedValues) - 1
-            while i>=0:
-                if sortedValues[i][0] <= timestamp:
-                    return sortedValues[i][1]
-                else:
-                    i -= 1
+        i = len(sortedValues) - 1
+        while i>=0:
+            if sortedValues[i][0] <= timestamp:
+                return sortedValues[i][1]
+            else:
+                i -= 1
 
         return ""
 
