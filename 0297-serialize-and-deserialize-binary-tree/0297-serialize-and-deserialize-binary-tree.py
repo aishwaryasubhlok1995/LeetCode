@@ -50,13 +50,11 @@ class Codec:
         while queueList:
             tree = queueList.popleft()
             i += 1
-            # if i<len(lisOfNodes):
             if lisOfNodes[i] != 'None':
                 NodeLeft = TreeNode(int(lisOfNodes[i]))
                 tree.left = NodeLeft
                 queueList.append(NodeLeft)
             i += 1
-                # if i<len(lisOfNodes):
             if lisOfNodes[i] != 'None':
                 NodeRight = TreeNode(int(lisOfNodes[i]))
                 tree.right = NodeRight
