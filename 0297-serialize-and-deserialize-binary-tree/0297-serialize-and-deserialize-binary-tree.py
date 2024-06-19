@@ -40,11 +40,9 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        print(data)
         if data == '':
             return []
         lisOfNodes = data.split(',')
-        print(lisOfNodes)
         queueList = deque()
         root = TreeNode(int(lisOfNodes[0]))
         queueList.append(root)
@@ -63,7 +61,6 @@ class Codec:
                         NodeRight = TreeNode(int(lisOfNodes[i]))
                         tree.right = NodeRight
                         queueList.append(NodeRight)
-        print('root',root)
         return root
             
             
