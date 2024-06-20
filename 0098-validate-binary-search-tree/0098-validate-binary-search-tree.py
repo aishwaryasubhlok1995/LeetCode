@@ -14,8 +14,4 @@ class Solution:
         
         
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        minVal = -math.inf
-        maxVal = math.inf
-        if root == None:
-            return 
-        return self.checkLimits(root, minVal, maxVal)
+        return self.checkLimits(root, -math.inf,  math.inf)
