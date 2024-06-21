@@ -6,11 +6,15 @@ class Solution:
             return str(int(num1)*int(num2))
         if len(num1) < len(num2):
             prod1 = num1
-            prod2 = int(num2)
+            prod2 = num2
         else:
             prod1 = num2
-            prod2 = int(num1)
+            prod2 = num1
         ans = 0
+        prod1 = prod1[::-1]
         for i in range(len(prod1)):
-            ans += prod2 * (int(prod1[i]) * 10 **(len(prod1) - i-1))
+            ans += int(prod2) * (int(prod1[i]) * 10**i)
         return str(ans)
+       
+            
+        
