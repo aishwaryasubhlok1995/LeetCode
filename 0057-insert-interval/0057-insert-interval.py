@@ -8,7 +8,6 @@ class Solution:
                 break
             if i == len(intervals)-1:
                 intervals.insert(i+1, newInterval)
-        print(intervals)
         ans = []
         ans.append(intervals[0])
         for i in range(1, len(intervals)):
