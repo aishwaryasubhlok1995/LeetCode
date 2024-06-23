@@ -5,7 +5,6 @@ class Solution:
         while True:
             slow = nums[slow]
             fast = nums[nums[fast]]
-            print(slow, fast)
             if slow == fast:
                 break
         ptr = nums[0] 
