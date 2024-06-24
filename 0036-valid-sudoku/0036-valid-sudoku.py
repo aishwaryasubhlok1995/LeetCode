@@ -1,38 +1,26 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        #explore i and j for i to 3, and j to j+3
-            #initially keep i stable and jsut extend j 
-            # when j reaches 9- #increase I and make j to 0 
-            
-        visitedDict = {}
-        i = 0 
-        j = 0 
-        for i in range(0, 9):
-            visitedI = set()
-            vistedJ = set()
-            for j in range(0, 9):
+        boards = []
+        for i in range(len(board)):
+            boards.append(set())
+        for i in range(len(board)):
+            row = set()
+            columns = set()
+            for j in range(len(board[i])):
                 if board[i][j] != '.':
-                    if board[i][j] not in visitedI:
-                        visitedI.add(board[i][j])
-                    else:
+                    if board[i][j] in row:
                         return False
-                    key = (3*(i//3) + (j//3))
-                    if key not in visitedDict:
-                        visitedDict[key] = set(board[i][j])
-                    else:
-                        if board[i][j] in visitedDict[key]:
-                            return False
-                        visitedDict[key].add(board[i][j])
+                    row.add(board[i][j])
                 if board[j][i] != '.':
-                    if board[j][i] not in vistedJ:
-                        vistedJ.add(board[j][i])
-                    else:
+                    if board[j][i] in columns:
                         return False
+                    columns.add(board[j][i])
+                pos = (3*(i//3)) + (j//3)
+                if board[i][j] != '.':
+                    if board[i][j] in boards[pos]:
+                        return False
+                    boards[pos].add(board[i][j])  
                     
         return True
-                    
-                
-                
-                            
             
         
