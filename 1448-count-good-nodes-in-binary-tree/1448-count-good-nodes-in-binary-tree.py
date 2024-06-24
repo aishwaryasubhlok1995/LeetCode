@@ -11,7 +11,7 @@ class Solution:
         def countGoodNodes(root, newMax):
             nonlocal count 
             if root == None:
-                return count
+                return 
             if root.val >= newMax:
                 count += 1
                 newMax = root.val
