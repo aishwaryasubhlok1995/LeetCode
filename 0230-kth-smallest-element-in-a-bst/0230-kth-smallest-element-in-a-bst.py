@@ -16,7 +16,6 @@ class Solution:
             arr.append(root.val)
             findKElement(root.right)
         findKElement(root)
-        print(arr)
         return arr[k-1]
             
         
