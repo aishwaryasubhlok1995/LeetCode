@@ -11,7 +11,7 @@ class Solution:
         def findKElement(root):
             nonlocal arr
             if root == None:
-                return arr
+                return 
             findKElement(root.left)
             arr.append(root.val)
             findKElement(root.right)
