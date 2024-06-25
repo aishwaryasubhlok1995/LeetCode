@@ -1,4 +1,5 @@
 class Solution:
+    import heapq
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         ans = [] 
         finalAns = []
@@ -12,11 +13,10 @@ class Solution:
             else:
                 dictDist[value].append([i[0], i[1]])
             ans.append(value)
-        ans = sorted(ans)
-        i = 0
+        heapq.heapify(ans)
         while len(finalAns) != k:
-            temp = dictDist[ans[i]]
+            x = heapq.heappop(ans)
+            temp = dictDist[x]
             for j in range(len(temp)):
                 finalAns.append(temp[j])
-            i += 1
         return finalAns
