@@ -13,12 +13,10 @@ class Solution:
                 dictDist[value].append([i[0], i[1]])
             ans.append(value)
         ans = sorted(ans)
-        print(dictDist)
         i = 0
         while len(finalAns) != k:
             temp = dictDist[ans[i]]
             for j in range(len(temp)):
                 finalAns.append(temp[j])
             i += 1
-
         return finalAns
