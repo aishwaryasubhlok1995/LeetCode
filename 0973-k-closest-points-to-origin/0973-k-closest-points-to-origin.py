@@ -11,7 +11,6 @@ class Solution:
             if len(ans) < k:
                 heapq.heappush(ans, (value, i[0], i[1]))
             else:
-                print(value, ans[0][0])
                 if ans[0][0] < value:
                     heapq.heappop(ans)
                     heapq.heappush(ans, (value, i[0], i[1]))
