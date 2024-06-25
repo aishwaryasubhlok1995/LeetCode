@@ -12,9 +12,11 @@ class Solution:
             nonlocal arr
             if root == None:
                 return 
-            findKElement(root.left)
+            if root.left:
+                findKElement(root.left)
             arr.append(root.val)
-            findKElement(root.right)
+            if root.right:
+                findKElement(root.right)
         findKElement(root)
         return arr[k-1]
             
