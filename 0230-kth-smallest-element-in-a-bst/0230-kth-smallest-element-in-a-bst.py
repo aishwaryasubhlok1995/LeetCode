@@ -8,22 +8,21 @@ class Solution:
     import heapq
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         arr = []
-        heapq.heapify(arr)
-        def findKElement(root, k):
+        def findKElement(root):
             nonlocal arr
             if root == None:
                 return arr
-            if len(arr) < k:
-                heapq.heappush(arr, -root.val)
-            else:
-                if arr[0] < -root.val:
-                    heapq.heappop(arr)
-                    heapq.heappush(arr, -root.val)
-            findKElement(root.left, k)
-            findKElement(root.right, k)
-            return arr[0]
-                    
-        return -1*findKElement(root, k)
+            findKElement(root.left)
+            arr.append(root.val)
+            findKElement(root.right)
+        findKElement(root)
+        print(arr)
+        return arr[k-1]
+            
+        
+        
+        
+        
         
         
         
