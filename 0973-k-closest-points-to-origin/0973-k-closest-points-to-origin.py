@@ -3,20 +3,18 @@ class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         ans = [] 
         finalAns = []
-        dictDist = {}
+        heapq.heapify(ans)
         def ksqrt(x, y):
-            return(sqrt((y*y) + (x*x)))
+            return(-sqrt((y*y) + (x*x)))
         for i in points:
             value = (ksqrt(i[0], i[1]))
-            if value not in dictDist:
-                dictDist[value] = [[i[0], i[1]]]
+            if len(ans) < k:
+                heapq.heappush(ans, (value, i[0], i[1]))
             else:
-                dictDist[value].append([i[0], i[1]])
-            ans.append(value)
-        heapq.heapify(ans)
-        while len(finalAns) != k:
-            x = heapq.heappop(ans)
-            temp = dictDist[x]
-            for j in range(len(temp)):
-                finalAns.append(temp[j])
+                print(value, ans[0][0])
+                if ans[0][0] < value:
+                    heapq.heappop(ans)
+                    heapq.heappush(ans, (value, i[0], i[1]))
+        for i in range(len(ans)):
+            finalAns.append([ans[i][1], ans[i][2]])
         return finalAns
