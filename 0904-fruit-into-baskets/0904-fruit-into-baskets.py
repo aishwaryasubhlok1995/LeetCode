@@ -19,7 +19,7 @@ class Solution:
                     if dictFruits[fruits[i]] == 0:
                         del dictFruits[fruits[i]]
                     i = i+1
-            maxCount = max(maxCount, len(fruits[i:j+1:]))
+            maxCount = max(maxCount, j-i+1)
         if maxCount == 0:
             return 1
         return maxCount
