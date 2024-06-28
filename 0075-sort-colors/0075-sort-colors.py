@@ -11,7 +11,7 @@ class Solution:
                 nums[i] = 0
             elif i < dictMap[1] + dictMap[0]:
                 nums[i] = 1
-            elif i < dictMap[2] + dictMap[1] + dictMap[0]:
+            else:
                 nums[i] = 2
         
                 
