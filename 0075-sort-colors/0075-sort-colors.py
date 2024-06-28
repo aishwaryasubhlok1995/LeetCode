@@ -27,7 +27,7 @@ class Solution:
                 if dictMap[2] == 0:
                     del dictMap[2]
             i = i+1
-            print(nums)
+        return nums
             
                 
                 
