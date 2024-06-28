@@ -3,35 +3,33 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        dictMap = {}
+        for i in range(len(nums)):
+            if nums[i] not in dictMap:
+                dictMap[nums[i]] = 1
+            else:
+                dictMap[nums[i]] += 1
         i = 0
-        j = 1
-        
-        while j<len(nums):
-            if nums[i] == 0:
-                i = i+1
-            else:
-                if nums[j] == 0 and nums[i] != 0:
-                    temp = nums[i]
-                    nums[i] = nums[j]
-                    nums[j] = temp
-                    i = i + 1
-            j = j+1
-        if nums[i] == 0:
+        while i < len(nums):
+            if 0 in dictMap:
+                dictMap[0] -= 1 
+                nums[i] = 0
+                if dictMap[0] == 0:
+                    del dictMap[0]
+            elif 1 in dictMap:
+                dictMap[1] -= 1 
+                nums[i] = 1
+                if dictMap[1] == 0:
+                    del dictMap[1]
+            elif 2 in dictMap:
+                dictMap[2] -= 1 
+                nums[i] = 2
+                if dictMap[2] == 0:
+                    del dictMap[2]
             i = i+1
-        j = i+1
-        while j<len(nums) and i < len(nums):
-            print(i, j, nums)
-
-            if nums[i] == 1:
-                 i = i+1
-            else:
-                if nums[j] == 1 and nums[i] != 1 and i<j:
-                    temp = nums[i]
-                    nums[i] = nums[j]
-                    nums[j] = temp
-                    i = i+1
-                j = j + 1
-        print(nums)
+            print(nums)
+            
+                
                 
                 
             
