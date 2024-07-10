@@ -10,7 +10,6 @@ class Solution:
                 n = n//10
                 sumDigits += digit*digit
             if sumDigits in setOfNo:
-                print('hello', sumDigits)
                 return False
             setOfNo.add(sumDigits)
             return isCheck(sumDigits, setOfNo)
