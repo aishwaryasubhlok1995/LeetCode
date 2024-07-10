@@ -1,24 +1,21 @@
 class Solution:
-    import math
-    def getSquareOfdigit(self, n):
-        sumOfdigits = 0
-        while n>0:
-            number = n%10
-            sumOfdigits += number*number
-            n = n//10
-        return sumOfdigits
-        
     def isHappy(self, n: int) -> bool:
-        tempList = set()
-        while n>0:
-            sumOfdigits = self.getSquareOfdigit(n)
-            beforeLength = len(tempList)
-            if sumOfdigits == 1:
+        setOfNo = set()
+        def isCheck(n, setOfNo):
+            if n == 1:
                 return True
-            tempList.add(sumOfdigits)
-            if beforeLength == len(tempList):
+            sumDigits = 0
+            while n >= 1:
+                digit = n%10
+                n = n//10
+                sumDigits += digit*digit
+            if sumDigits in setOfNo:
+                print('hello', sumDigits)
                 return False
-            n = sumOfdigits
-                
+            setOfNo.add(sumDigits)
+            return isCheck(sumDigits, setOfNo)
+        return isCheck(n, setOfNo)
         
-            
+       
+        
+        
