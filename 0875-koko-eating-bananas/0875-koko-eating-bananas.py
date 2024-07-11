@@ -1,4 +1,5 @@
 class Solution:
+    import math
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         k = max(piles)
         if h == len(piles):
@@ -11,9 +12,7 @@ class Solution:
             mid = (i+j)//2
             for pile in range(len(piles)):
                 if piles[pile] > mid:
-                    bananaRate += (piles[pile])//mid 
-                    if (piles[pile])%mid > 0:
-                        bananaRate += 1
+                    bananaRate += math.ceil((piles[pile])/mid) 
                 elif piles[pile] <= mid:
                     bananaRate += 1
             if bananaRate > h:
