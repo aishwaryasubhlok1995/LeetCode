@@ -11,10 +11,7 @@ class Solution:
             bananaRate = 0
             mid = (i+j)//2
             for pile in range(len(piles)):
-                if piles[pile] > mid:
-                    bananaRate += math.ceil((piles[pile])/mid) 
-                elif piles[pile] <= mid:
-                    bananaRate += 1
+                bananaRate += math.ceil((piles[pile])/mid) 
             if bananaRate > h:
                 i = mid +1
             else:
