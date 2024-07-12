@@ -1,9 +1,6 @@
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
-        if len(edges) == 0 and n == 1:
-            return True
-        elif len(edges) == 0:
-            return False
+       
         adj = [[] for _ in range(n)]
         for i in edges:
             adj[i[0]].append(i[1])
@@ -20,18 +17,13 @@ class Solution:
                 else:
                     if nodes[i] != source:
                         return False
-            return True
-        counter = 0
-        isChecked = False
+        if checkTree(0, 0) == False:
+            return False
         for i in range(n):
             if visited[i] == False:
-                counter += 1
-                isChecked = checkTree(0, 0)
-                if counter >= 2:
-                    break
-        if counter >= 2:
-            return False
-        return isChecked
+                return False
+        return True
+        
                     
     
             
