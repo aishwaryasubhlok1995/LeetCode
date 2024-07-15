@@ -1,30 +1,28 @@
-class Solution:    
+class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        island = 0
-        if grid is None:
-            return 
-        visited = set()  
+        visited = set()
+        ans = 0
+        dir = [[0,1], [1, 0], [-1, 0], [0, -1]]
+        queueList = deque()
+        def countIsland(i, j):
+            for d in dir:
+                x = d[0] + i
+                y = d[1] + j
+                if x in range(len(grid)) and y in range(len(grid[0])) and grid[x][y] == '1' and (x, y)  not in visited:
+                    visited.add((x, y))
+                    queueList.append([x, y])
 
-        def bfs( r, c):
-            directions = [[1,0],[-1, 0], [0, 1], [0, -1]]
-            queuelist = deque()
-            queuelist.append([r,c])
-            visited.add((r,c))
-            while queuelist:
-                curr = queuelist.popleft()
-                for d in (directions):
-                    row = curr[0]+d[0]
-                    column = curr[1]+d[1]
-                    if (row in range(len(grid))) and (column in range(len(grid[0]))) and (row,column) not in visited and grid[row][column] == '1':
-                        queuelist.append([row, column])
-                        visited.add((row, column))
-        
-        for r in range(len(grid)):
-            for c in range(len(grid[0])):
-                if grid[r][c] == '1' and (r,c) not in visited:
-                    bfs(r,c)
-                    island += 1
-        return island
-                
-                    
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == '1' and (i, j) not in visited:
+                    ans += 1
+                    queueList.append([i, j])
+                    while queueList:
+                        element = queueList.popleft()
+                        countIsland(element[0], element[1])
+        return ans
+
+
+
+
         
