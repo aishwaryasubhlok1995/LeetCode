@@ -6,18 +6,15 @@ class Solution:
             return ans
         def backtracking(i, curr):
             if i == len(digits):
-                var = ''
-                for i in curr:
-                    var += i
-                ans.append(var)
+                ans.append(curr[:])
                 return
             if digits[i] in hm and i<len(digits):
                 x = hm[digits[i]]
             for char in range(len(x)):
-                curr.append(x[char])
+                curr += (x[char])
                 backtracking(i+1, curr)
-                curr.pop()
-        backtracking(0, [])
+                curr = curr[:-1]
+        backtracking(0, "")
         return ans
         
         
