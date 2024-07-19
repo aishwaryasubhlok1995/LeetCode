@@ -5,7 +5,7 @@ class Solution:
         if digits == "":
             return ans
         def backtracking(i, curr):
-            if len(curr) == len(digits):
+            if i == len(digits):
                 var = ''
                 for i in curr:
                     var += i
