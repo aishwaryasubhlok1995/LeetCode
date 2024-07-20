@@ -15,7 +15,6 @@ class Solution:
         
         
         while i<len(s) and ord(s[i]) in range(48, 58):
-            print(s[i])
             x = ord(s[i]) - 48
             ans = ans*10 + x 
             i += 1
@@ -24,10 +23,10 @@ class Solution:
                 
         if isPositive == False:
             ans= -ans
-        if ans > 2147483647:
-            ans = 2147483647
-        if ans < -2147483648:
-            ans = -2147483648
+        if ans > 2**31 -1:
+            ans = 2**31 -1
+        if ans < -2**31:
+            ans = -2**31
         return ans
         
     
