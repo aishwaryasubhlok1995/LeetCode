@@ -22,7 +22,7 @@ class TimeMap:
             middle = (i+j)//2
             if values[middle][1] == timestamp:
                 return values[middle][0]
-            elif values[middle][1]<= timestamp:
+            elif values[middle][1]< timestamp:
                 i = middle +1
             else:
                 j = middle - 1
