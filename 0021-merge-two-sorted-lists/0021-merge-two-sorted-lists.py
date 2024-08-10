@@ -31,7 +31,6 @@ class Solution:
             else: 
                 list3 = createNode(list1.val, list3)
                 list1 = list1.next
-        print(list3)
         return list3
             
         
