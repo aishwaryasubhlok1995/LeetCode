@@ -26,8 +26,8 @@ class TimeMap:
                 i = middle +1
             else:
                 j = middle
-            if timestamp < values[i][1]:
-                return values[i-1][0]
+        if timestamp < values[i][1]:
+            return values[i-1][0]
         return values[i][0] 
                
 
