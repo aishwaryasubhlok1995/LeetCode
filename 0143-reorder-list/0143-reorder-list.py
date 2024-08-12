@@ -8,37 +8,29 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        slow = head
-        fast = head
-        while fast!= None and fast.next !=None:
-            slow = slow.next
-            fast = fast.next.next
-            
-        #rev logic
+        slow = head 
+        fast = head 
+        while fast != None and fast.next != None:
+            slow = slow.next 
+            fast = fast.next.next 
         curr = slow.next 
-        slow.next = None
         prev = None
-        while curr != None:
-            next = curr.next 
-            curr.next = prev
-            prev = curr 
-            curr = next
-        head1=prev
-        head2 = head
+        slow.next = None
+        while curr:
+            Next = curr.next 
+            curr.next = prev 
+            prev = curr
+            curr = Next 
+        head1 = prev 
+        head2 = head 
         while head1:
-            temp = head2.next 
+            temp = head2.next
             head2.next = head1
             head2 = temp 
             
             temp = head1.next 
             head1.next = head2
-            head1 = temp
-        return head
-            
-    
-       
-                
-                
-            
-            
-            
+            head1 = temp 
+        
+        
+        
