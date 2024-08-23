@@ -1,16 +1,23 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         final = []
-        curr = []
-        def subset(i):
-            if i == len(nums):
-                final.append(curr.copy())
-                return  
+         
+        def findSubsets(i, subArray):
+            if i >= len(nums):
+                final.append(subArray.copy())
+                return final 
             
-            curr.append(nums[i])
-            subset(i+1)
+            subArray.append(nums[i])
+            findSubsets(i+1, subArray)
             
-            curr.pop()
-            subset(i+1)
-        subset(0)
+            subArray.pop()
+            findSubsets(i+1, subArray)
+        
+        findSubsets(0, [])
         return final
+            
+            
+            
+            
+            
+        
