@@ -1,36 +1,30 @@
 class Solution:
-    import heapq
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        dict = {}
-        ans = ''
-        dictCycles = {}
-        for i in tasks:
-            if i not in dict:
-                dict[i] = 1
-                dictCycles[i] = 0
+        hm = {}
+        hmCooling ={}
+        minRunTime = 0
+        for t in tasks:
+            if t in hm.keys():
+                hm[t] +=1
             else:
-                dict[i] += 1
-        while dict:
-            element = (heapq.nlargest(len(dict), dict.keys(), key= dict.get))
-            dictKey = ''
-            for i in element:
-                if dictCycles[i] == 0: 
-                    dictKey = i
-                    dictCycles[i] = n
-                    ans += dictKey
+                hm[t]=1
+                hmCooling[t] = 0
+        while len(hm)!=0:
+            taskPriority = heapq.nlargest(n+1,hm.keys(),key=hm.get)
+            lastAdded = None
+            for t in taskPriority:
+                if hmCooling[t] ==0:
+                    hmCooling[t] = n
+                    lastAdded = t
+                    if hm[t] == 1:
+                        del hm[t]
+                    else:
+                        hm[t] = hm[t] - 1
                     break
-            if dictKey == '':
-                ans += 'I'
-            else:
-                dict[dictKey] -= 1
-            if len(ans) > 1:
-                for char in dictCycles:
-                    if char != dictKey and dictCycles[char] > 0:
-                        dictCycles[char] -= 1
-            if dict[i] == 0:
-                del dict[i]
-        return len(ans)
-            
-            
+            minRunTime+=1
+            for c in hmCooling:
+                if c!=lastAdded and hmCooling[c]!=0:
+                    hmCooling[c] -=1
+        return minRunTime
         
-            
+        
