@@ -8,7 +8,6 @@ class Solution:
             heapq.heappush(pointsHeapList, [-value, i])
             if len(pointsHeapList) > k:
                  heapq.heappop(pointsHeapList)
-        print(pointsHeapList)
         for i in pointsHeapList:
             ansList.append(i[1])
         return ansList
