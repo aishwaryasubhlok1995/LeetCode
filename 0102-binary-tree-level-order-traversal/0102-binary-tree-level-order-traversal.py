@@ -11,18 +11,15 @@ class Solution:
             return 
         quelist = deque()
         quelist.append(root)
-        ans.append([root.val])
         while quelist:
             tempList = []
             for i in range(len(quelist)):
                 node = quelist.popleft()
-                if node.left != None:
-                    tempList.append(node.left.val)
+                tempList.append(node.val)
+                if node.left:
                     quelist.append(node.left)
-                if node.right != None:
-                    tempList.append(node.right.val)
+                if node.right:
                     quelist.append(node.right)
-            if tempList:
-                ans.append(tempList)
+            ans.append(tempList)
         return ans
         
