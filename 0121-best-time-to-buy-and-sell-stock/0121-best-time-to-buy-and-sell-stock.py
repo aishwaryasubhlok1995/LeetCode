@@ -6,7 +6,6 @@ class Solution:
             minNo = min(minNo, prices[i])
             if prices[i] > minNo:
                 maxProfit = max(maxProfit, prices[i]-minNo)
-            
         return maxProfit
             
         
