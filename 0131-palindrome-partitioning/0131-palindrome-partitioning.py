@@ -1,7 +1,8 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         final = []
-        def backtrack(i,current):
+        current = []
+        def backtrack(i):
             if i==len(s):
                 final.append(current.copy())
                 return
@@ -9,8 +10,8 @@ class Solution:
                 curStr = s[i:j+1] 
                 if curStr == curStr[::-1]:
                     current.append(curStr)
-                    backtrack(j+1,current)
+                    backtrack(j+1)
                     current.pop()
         
-        backtrack(0,[])
+        backtrack(0)
         return final
