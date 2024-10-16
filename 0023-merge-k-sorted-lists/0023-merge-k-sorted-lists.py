@@ -5,35 +5,36 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        if len(lists) == 0:
+            return None
+        while len(lists) > 1:
+            currentMergeList = []
+            for i in range(0, len(lists), 2):
+                list1 = lists[i]
+                list2 = lists[i+1] if i + 1 < len(lists) else None
+                currentMergeList.append(self.mergeTwoLists(list1, list2)) 
+            lists = currentMergeList
+        return lists[0]
+    
+    def mergeTwoLists(self, list1, list2):
         dummylist3 = ListNode(-1)
-        def mergeTwoLists(list1, list2, list3):
-            while list1 != None or list2 != None:
-                if list1 != None and list2 != None:
-                    if list1.val > list2.val:
-                        Node = ListNode(list2.val)
-                        list2 = list2.next
-                    else:
-                        Node = ListNode(list1.val)
-                        list1 = list1.next 
-                elif list2 != None and list1 == None:
-                    Node = ListNode(list2.val)
+        current = dummylist3
+        while list1 or list2:
+            if list1 == None:
+                current.next = ListNode(list2.val)
+                list2 = list2.next
+            elif list2 == None:
+                current.next = ListNode(list1.val)
+                list1 = list1.next
+            else:
+                if list1.val > list2.val:
+                    current.next = ListNode(list2.val)
                     list2 = list2.next
                 else:
-                    Node = ListNode(list1.val)
-                    list1 = list1.next
-                list3.next = Node
-                list3 = list3.next
-            lists.append(dummylist3.next)
-            return list3
-            
-        if len(lists) == 1:
-            return lists[0]
-        while len(lists) > 1:
-            list1 = lists.pop(0)
-            list2 = lists.pop(0)
-            if list1 != None or list2 != None:
-                mergeTwoLists(list1, list2, dummylist3) 
-        return dummylist3.next
+                    current.next = ListNode(list1.val)
+                    list1 = list1.next 
+            current =  current.next
+        return dummylist3.next 
                 
            
             
