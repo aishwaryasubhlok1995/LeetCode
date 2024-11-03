@@ -2,7 +2,6 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         leftMax = [0]*len(height)
         righMax = [0]*len(height)
-        ans = [0]*len(height)
         maxleftVal = 0
         maxRightVal = 0
         sumVal = 0
