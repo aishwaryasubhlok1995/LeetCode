@@ -1,19 +1,21 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        leftMax = [0]*len(height)
-        righMax = [0]*len(height)
-        maxleftVal = 0
-        maxRightVal = 0
-        sumVal = 0
-        for i in range(1, len(height)):
-            maxleftVal = max(maxleftVal, height[i-1])
-            leftMax[i] = maxleftVal
-        for j in range(len(height)-2, -1, -1):
-            maxRightVal = max(maxRightVal, height[j+1])
-            righMax[j] = maxRightVal
-        for h in range(1, len(height)):
-            value = min(leftMax[h], righMax[h]) - height[h]
+        maxLeft = height[0]
+        maxRight = height[-1]
+        L = 0
+        R = len(height) - 1
+        sumOfNo = 0
+        while L<R:
+            if maxLeft < maxRight:
+                L += 1
+                value = min(maxLeft, maxRight) - height[L]
+                maxLeft = max(maxLeft, height[L])
+            else:
+                R -= 1
+                value = min(maxLeft, maxRight) - height[R]
+                maxRight = max(maxRight, height[R])
             if value > 0:
-                sumVal += value 
-        return sumVal
+                sumOfNo += value
+        
+        return sumOfNo
         
