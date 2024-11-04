@@ -9,14 +9,10 @@ class Solution:
             if maxLeft < maxRight:
                 L += 1
                 maxLeft = max(maxLeft, height[L])
-                value =  maxLeft- height[L]
-                
+                sumOfNo  +=  maxLeft- height[L]
             else:
                 R -= 1
                 maxRight = max(maxRight, height[R])
-                value = maxRight - height[R]
-                
-            sumOfNo += value
-        
+                sumOfNo += maxRight - height[R]        
         return sumOfNo
         
