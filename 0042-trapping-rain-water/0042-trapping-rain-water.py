@@ -8,14 +8,15 @@ class Solution:
         while L<R:
             if maxLeft < maxRight:
                 L += 1
-                value =  maxLeft- height[L]
                 maxLeft = max(maxLeft, height[L])
+                value =  maxLeft- height[L]
+                
             else:
                 R -= 1
-                value = maxRight - height[R]
                 maxRight = max(maxRight, height[R])
-            if value > 0:
-                sumOfNo += value
+                value = maxRight - height[R]
+                
+            sumOfNo += value
         
         return sumOfNo
         
