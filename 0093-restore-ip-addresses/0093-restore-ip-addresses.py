@@ -4,7 +4,6 @@ class Solution:
         def backtrack(start, parts, curStr):
             if len(parts) == 4 and start == len(s):
                 res.append('.'.join(parts))
-                print(res)
                 return 
             if (len(parts)==4) or start>=len(s):
                 return  
