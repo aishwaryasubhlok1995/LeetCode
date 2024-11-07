@@ -14,7 +14,6 @@ class Solution:
             curr = curr.next 
             counter += 1
         noOfNodes = counter
-       
         if k < counter:
             counter = counter - k 
         else: 
@@ -24,7 +23,6 @@ class Solution:
             return head
         curr = head
         count = 1
-        print(counter)
         while count != counter: 
             curr = curr.next 
             count += 1
@@ -32,7 +30,6 @@ class Solution:
         head1 = temp
         curr.next = None 
         curr = head1
-        print(curr)
         while curr != None and curr.next != None:
             curr = curr.next 
         if curr != None:
