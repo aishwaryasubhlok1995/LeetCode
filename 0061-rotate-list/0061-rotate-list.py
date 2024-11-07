@@ -20,7 +20,6 @@ class Solution:
             curr = curr.next 
         head = curr.next 
         curr.next = None   
-            
         return head
         
             
