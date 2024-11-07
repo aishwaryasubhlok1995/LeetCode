@@ -9,32 +9,19 @@ class Solution:
             return 
         curr = head
         counter = 1
-        noOfNodes = 0
         while curr.next != None:
             curr = curr.next 
             counter += 1
-        noOfNodes = counter
-        if k < counter:
-            counter = counter - k 
-        else: 
-            no = k % counter 
-            counter = counter - no
-        if k == 0 or noOfNodes == counter:
-            return head
+        curr.next = head
+        k = k % counter
+        counter = counter-k
         curr = head
-        count = 1
-        while count != counter: 
+        for i in range(counter-1):
             curr = curr.next 
-            count += 1
-        temp = curr.next  
-        head1 = temp
-        curr.next = None 
-        curr = head1
-        while curr != None and curr.next != None:
-            curr = curr.next 
-        if curr != None:
-            curr.next = head
-        return head1
+        head = curr.next 
+        curr.next = None   
+            
+        return head
         
             
             
