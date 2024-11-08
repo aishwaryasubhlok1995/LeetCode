@@ -6,17 +6,31 @@
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
-        setIntersectVal = set()
-        curr = headA
-        curr2 = headB
-        while curr != None:
-            setIntersectVal.add(curr)
+        def getLengthOfLinkedList(headA, count):
+            curr = headA
+            while curr != None:
+                count += 1
+                curr = curr.next 
+            return count
+        lenheadA = getLengthOfLinkedList(headA, 0)
+        lenheadB = getLengthOfLinkedList(headB, 0)
+        value = abs(lenheadA - lenheadB)
+        if lenheadA > lenheadB:
+            curr = headA
+            curr1 = headB
+        else:
+            curr = headB
+            curr1 = headA
+        count = 0 
+        while count != value:
             curr = curr.next 
-        while curr2 != None:
-            if curr2 in setIntersectVal:
-                return curr2
-            curr2 = curr2.next 
-        return None
+            count += 1
+        while curr != curr1:
+            curr = curr.next 
+            curr1 = curr1.next
+        if curr == curr:
+            return curr 
+        return None 
         
             
             
