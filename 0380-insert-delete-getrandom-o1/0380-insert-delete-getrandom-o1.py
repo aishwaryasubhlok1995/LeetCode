@@ -19,7 +19,7 @@ class RandomizedSet:
         lastValue = self.randomlist[-1]
         self.hm[lastValue] = idx 
         self.randomlist[idx] = lastValue
-        self.randomlist.pop(-1) 
+        self.randomlist.pop() 
         del self.hm[val]
         return True 
         
