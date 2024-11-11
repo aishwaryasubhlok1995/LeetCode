@@ -24,9 +24,7 @@ class RandomizedSet:
         return True 
         
     def getRandom(self) -> int:
-        #return random.choice(self.randomlist)
-        idx = random.randint(0, len(self.randomlist) - 1)
-        return self.randomlist[idx]
+        return random.choice(self.randomlist)
         
 
 
