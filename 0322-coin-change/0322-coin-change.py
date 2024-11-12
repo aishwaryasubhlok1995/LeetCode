@@ -5,7 +5,7 @@ class Solution:
         for i in range(1, amount+1):
             arr = []
             for coin in coins:
-                if i - coin >= 0:
+                if i >= coin:
                     arr.append(1 + DP[i-coin])
             if len(arr) > 0:
                 DP[i] = min(arr)
