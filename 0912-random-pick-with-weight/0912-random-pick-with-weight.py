@@ -2,10 +2,9 @@ import random
 class Solution:
 
     def __init__(self, w: List[int]):
-        self.w = w
         self.weight = []
         curr = 0
-        for i in self.w:
+        for i in w:
             curr += i
             self.weight.append(curr)
 
