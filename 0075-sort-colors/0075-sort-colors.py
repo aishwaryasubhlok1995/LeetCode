@@ -1,25 +1,25 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
-        Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead. // Use this approach single pass
         """
-        dictMap = {0:0, 1:0, 2:0}
-        for i in nums:
-            dictMap[i] += 1
-        for i in range(len(nums)):
-            if i < dictMap[0]:
-                nums[i] = 0
-            elif i < dictMap[1] + dictMap[0]:
-                nums[i] = 1
-            else:
-                nums[i] = 2
+        low = 0 
+        high = len(nums) - 1
+        middle = 0
+        while middle <= high:
+            if nums[middle] == 1:
+                middle += 1
+            elif nums[middle] == 0:
+                nums[low], nums[middle] = nums[middle], nums[low] 
+                low += 1
+                middle += 1
+            elif nums[middle] == 2:
+                nums[high], nums[middle] = nums[middle], nums[high] 
+                high -= 1
+            
+
+
+
+
+
         
-                
-            
-            
-                
-                
-                
-            
-                    
-                
