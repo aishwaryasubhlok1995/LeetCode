@@ -22,6 +22,7 @@
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Binary Search
 |  |
@@ -43,4 +44,12 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
