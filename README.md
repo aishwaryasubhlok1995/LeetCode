@@ -42,6 +42,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 ## Sorting
 |  |
@@ -50,6 +51,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0213-house-robber-ii) |
@@ -58,4 +60,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
+## String
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
