@@ -1,7 +1,6 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         heighest = max(piles)
-        minPiles = math.inf
         if h == len(piles):
             return heighest
         lowest = 1
@@ -13,10 +12,9 @@ class Solution:
                 if  sumNo > h:
                     break 
             if sumNo <= h:
-                minPiles = min(minPiles, middle)
                 heighest = middle - 1
             elif sumNo > h:
                 lowest = middle + 1 
-        return minPiles
+        return lowest
 
             
