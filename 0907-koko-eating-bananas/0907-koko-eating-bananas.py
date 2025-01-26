@@ -4,7 +4,7 @@ class Solution:
         if h == len(piles):
             return heighest
         lowest = 1
-        while lowest <= heighest:
+        while lowest < heighest:
             middle = (lowest + heighest)//2
             sumNo = 0 
             for i in range(len(piles)):
@@ -12,9 +12,9 @@ class Solution:
                 if  sumNo > h:
                     break 
             if sumNo <= h:
-                heighest = middle - 1
+                heighest = middle
             elif sumNo > h:
                 lowest = middle + 1 
-        return lowest
+        return heighest
 
             
