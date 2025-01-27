@@ -38,6 +38,7 @@
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0907-koko-eating-bananas](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -71,4 +72,13 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
+## Hash Table
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
+## Design
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 <!---LeetCode Topics End-->
