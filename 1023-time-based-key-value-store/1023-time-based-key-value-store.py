@@ -1,37 +1,27 @@
 class TimeMap:
 
     def __init__(self):
-        self.timeMap = {}
+        self.dictTime = {}
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        if key in self.timeMap:
-            self.timeMap[key].append([value, timestamp])
+        if key not in self.dictTime:
+            self.dictTime[key] = [[timestamp, value]]  
         else:
-            self.timeMap[key] = [[value, timestamp]]
-        
+             self.dictTime[key].append([timestamp, value])
 
     def get(self, key: str, timestamp: int) -> str:
-        if key not in self.timeMap:
+        if key not in self.dictTime:
             return ""
-        values = self.timeMap[key]
-        i = 0
-        j = len(values)-1
-        if timestamp < values[0][1]:
+        sortedValues = self.dictTime[key]
+        if sortedValues[0][0] > timestamp:
             return ""
-        while i < j:
-            middle = (i+j)//2
-            if values[middle][1] == timestamp:
-                return values[middle][0]
-            elif values[middle][1]< timestamp:
-                i = middle +1
-            else:
-                j = middle - 1
-        if timestamp < values[i][1]:
-            return values[i-1][0]
-        return values[i][0] 
-               
+        i = len(sortedValues) - 1
+        while i>=0:
+            if sortedValues[i][0] <= timestamp:
+                return sortedValues[i][1]
+            i -= 1
 
-        
+        return ""
 
 
 # Your TimeMap object will be instantiated and called as such:
