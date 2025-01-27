@@ -15,7 +15,7 @@ class Solution:
 
         if target >= nums[left] and target <= nums[len(nums) -1]:
             right = len(nums) -1
-        elif target >= nums[len(nums) -1]:
+        elif target > nums[len(nums) -1]:
             right = left - 1
             left = 0
         while left <= right:
