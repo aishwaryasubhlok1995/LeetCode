@@ -59,6 +59,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 ## Sorting
@@ -87,6 +88,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
+| [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Hash Table
