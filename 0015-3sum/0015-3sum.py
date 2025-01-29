@@ -1,21 +1,21 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
+        tempSet = set()
+        resArray = []
         nums = sorted(nums)
-        ans = set()
-
-        for k in range(len(nums)):
-            x = -1 * nums[k]
-            i = k + 1
-            j = len(nums) - 1
-            while i < j:
-                if nums[i] + nums[j] == x:
-                    ans.add((nums[i], nums[j], nums[k]))
-                    i += 1
+        for i in range(len(nums)):
+            valToSearch = nums[i]*-1
+            left = i+1
+            right = len(nums) - 1
+            while left<right:
+                if nums[left] + nums[right] == valToSearch:
+                    if (nums[left], nums[right], valToSearch*-1) not in tempSet:
+                        tempSet.add((nums[left], nums[right], valToSearch*-1))
+                        resArray.append([nums[left], nums[right], valToSearch*-1])
+                    left += 1
+                elif nums[left] + nums[right] < valToSearch:
+                    left += 1
                 else:
-                    if nums[i] + nums[j] < x:
-                        i += 1
-                    else:
-                        j -= 1
-        print(ans)
-        return ans
-        
+                    right -= 1
+            
+        return resArray
