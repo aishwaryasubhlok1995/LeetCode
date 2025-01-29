@@ -4,7 +4,6 @@ class Solution:
         largeNum = nums[0] 
         smallNum = nums[0]
         for i in range(1, len(nums)):
-            print(nums[i],largeNum,  smallNum)
             temp_val = max(nums[i], largeNum*nums[i], smallNum*nums[i])
             smallNum = min(nums[i], largeNum*nums[i], smallNum*nums[i])
             largeNum = temp_val
