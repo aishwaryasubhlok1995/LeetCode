@@ -6,6 +6,7 @@
 | ------- |
 | [0015-3sum](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0152-maximum-product-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -62,6 +63,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -77,6 +79,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
 | [0152-maximum-product-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -128,4 +131,12 @@
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
