@@ -1,30 +1,25 @@
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
+        time = 0 
         hm = {}
-        hmCooling ={}
-        minRunTime = 0
-        for t in tasks:
-            if t in hm.keys():
-                hm[t] +=1
+        heapList = []
+        for i in range(len(tasks)):
+            if tasks[i] not in hm:
+                hm[tasks[i]] = 1
             else:
-                hm[t]=1
-                hmCooling[t] = 0
-        while len(hm)!=0:
-            taskPriority = heapq.nlargest(n+1,hm.keys(),key=hm.get)
-            lastAdded = None
-            for t in taskPriority:
-                if hmCooling[t] ==0:
-                    hmCooling[t] = n
-                    lastAdded = t
-                    if hm[t] == 1:
-                        del hm[t]
-                    else:
-                        hm[t] = hm[t] - 1
-                    break
-            minRunTime+=1
-            for c in hmCooling:
-                if c!=lastAdded and hmCooling[c]!=0:
-                    hmCooling[c] -=1
-        return minRunTime
-        
+                hm[tasks[i]] += 1
+        queueList = deque()
+        for key in hm:
+            heapq.heappush(heapList, -1 * hm[key])
+        print(heapList)
+        while queueList or heapList:
+            time += 1
+            if len(heapList) > 0:
+                value = heapq.heappop(heapList)
+                if value+1 < 0:
+                    queueList.append([value+1, time + n])
+            if len(queueList) > 0 and queueList[0][1] == time:
+                heapq.heappush(heapList, queueList.popleft()[0])
+        return time 
+
         
