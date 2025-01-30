@@ -1,18 +1,18 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        maxLeft = height[0]
-        maxRight = height[-1]
-        L = 0
-        R = len(height) - 1
         sumOfNo = 0
-        while L<R:
+        left = 0
+        right = len(height) - 1
+        maxLeft = height[left]
+        maxRight = height[right]
+        while left < right:
             if maxLeft < maxRight:
-                L += 1
-                maxLeft = max(maxLeft, height[L])
-                sumOfNo  +=  maxLeft- height[L]
+                left += 1
+                maxLeft = max(maxLeft, height[left])
+                sumOfNo += maxLeft - height[left]
             else:
-                R -= 1
-                maxRight = max(maxRight, height[R])
-                sumOfNo += maxRight - height[R]        
+                right -= 1
+                maxRight = max(maxRight, height[right])
+                sumOfNo += maxRight - height[right]
         return sumOfNo
         
