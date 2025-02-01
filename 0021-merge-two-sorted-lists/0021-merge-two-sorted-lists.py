@@ -11,18 +11,17 @@ class Solution:
             return None
         while list1 != None or list2 != None:
             if list1 == None:
-                value = list2.val
+                list3.next = list2
                 list2 = list2.next 
             elif list2 == None:
-                value = list1.val
+                list3.next = list1
                 list1 = list1.next
             elif  list1.val > list2.val:
-                value = list2.val
+                list3.next = list2
                 list2 = list2.next 
             else: 
-                value = list1.val
+                list3.next = list1
                 list1 = list1.next
-            list3.next = ListNode(value)
             list3 = list3.next
         return head.next
             
