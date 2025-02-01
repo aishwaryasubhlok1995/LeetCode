@@ -8,12 +8,11 @@ class Solution:
             fast  = nums[nums[fast]]
             if slow == fast:
                 break
-        print(slow)
-        while 1:
-            if ptr == slow:
-                break
+        while ptr != slow:
             ptr = nums[ptr]
             slow = nums[slow]
+            if ptr == slow:
+                return ptr
         return ptr
         
 
