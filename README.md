@@ -9,6 +9,7 @@
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
+| [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0198-house-robber) |
@@ -83,6 +84,7 @@
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
+| [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0213-house-robber-ii) |
@@ -94,17 +96,20 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 ## String
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Hash Table
 |  |
 | ------- |
+| [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Design
@@ -151,4 +156,8 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
