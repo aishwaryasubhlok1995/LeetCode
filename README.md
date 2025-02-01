@@ -66,6 +66,7 @@
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
+| [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 ## Sorting
@@ -135,6 +136,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -143,8 +145,10 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
