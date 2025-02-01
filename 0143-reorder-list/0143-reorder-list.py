@@ -21,16 +21,15 @@ class Solution:
             curr.next = prev 
             prev = curr
             curr = Next 
-        head1 = prev 
-        head2 = head 
-        while head1:
-            temp = head2.next
-            head2.next = head1
-            head2 = temp 
-            
-            temp = head1.next 
-            head1.next = head2
-            head1 = temp 
+        h2 = prev 
+        h1 = head 
+        while h2:
+            temp = h1.next
+            h1.next = h2
+            h1 = h2
+            h2 = temp 
+
+           
         
         
         
