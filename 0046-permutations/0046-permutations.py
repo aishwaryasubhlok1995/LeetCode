@@ -1,18 +1,19 @@
 class Solution:
+    '''only question where we consider both remaining and curr'''
+    
     def permute(self, nums: List[int]) -> List[List[int]]:
+        
         final = []
-        def backtrack(rem, curr):
-            if len(curr) == len(nums):
+        curr = []
+        def backtracking( remaining):
+            if len(remaining) == 0:
                 final.append(curr.copy())
                 return 
-            for i in range(len(rem)):
-                curr.append(rem[i])
-                val = rem[:i] + rem[i+1::]
-                backtrack(val, curr)
+            for i in range(len(remaining)):
+                curr.append(remaining[i])
+                element =  remaining[:i] +  remaining[i+1::] 
+                backtracking( element)
                 curr.pop()
-        backtrack(nums, [])
+        
+        backtracking(nums)
         return final 
-        
-        
-        
-        
