@@ -10,6 +10,7 @@
 | [0046-permutations](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0046-permutations) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0090-subsets-ii) |
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -29,6 +30,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Breadth-First Search
 |  |
@@ -39,6 +41,7 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Math
 |  |
@@ -107,6 +110,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
@@ -177,5 +181,6 @@
 |  |
 | ------- |
 | [0046-permutations](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0046-permutations) |
+| [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
