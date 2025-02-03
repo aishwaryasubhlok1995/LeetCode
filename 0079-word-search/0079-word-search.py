@@ -5,7 +5,7 @@ class Solution:
         visited = set()
         dir = [[0, 1], [1, 0], [0, -1], [-1, 0]]
         
-        def backtracking(i, j, pos, visited):
+        def backtracking(i, j, pos):
             if len(word) == pos:
                 return True 
             for d in dir:
@@ -13,7 +13,7 @@ class Solution:
                 column = j + d[1]
                 if row in range(len(board)) and column in range(len(board[0])) and (row, column) not in visited and  board[row][column] == word[pos]:
                     visited.add((row, column))
-                    if backtracking(row, column, pos+1, visited) == True:
+                    if backtracking(row, column, pos+1) == True:
                         return True 
                     visited.remove((row, column))
         
@@ -22,7 +22,8 @@ class Solution:
         for i in range(len(board)):
             for j in range(len(board[0])):
                 if board[i][j] == word[0]:
-                    if backtracking(i, j, 1, {(i, j)}):
+                    visited = {(i, j)}
+                    if backtracking(i, j, 1):
                         return True 
         return False
         
