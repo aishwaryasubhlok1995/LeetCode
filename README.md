@@ -8,6 +8,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0046-permutations) |
+| [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
@@ -84,6 +85,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
