@@ -25,6 +25,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 | [0747-min-cost-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-koko-eating-bananas](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0907-koko-eating-bananas) |
@@ -88,6 +89,7 @@
 | [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 ## Dynamic Programming
 |  |
@@ -102,6 +104,7 @@
 | [0213-house-robber-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
+| [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
@@ -147,6 +150,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 ## Counting
 |  |
