@@ -22,6 +22,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0271-encode-and-decode-strings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0287-find-the-duplicate-number](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -45,6 +46,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
+| [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Math
 |  |
@@ -190,4 +192,8 @@
 | [0046-permutations](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0090-subsets-ii) |
+## Simulation
+|  |
+| ------- |
+| [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
 <!---LeetCode Topics End-->
