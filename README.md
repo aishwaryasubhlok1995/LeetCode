@@ -61,6 +61,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0374-guess-number-higher-or-lower](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0907-koko-eating-bananas](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -196,4 +197,8 @@
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
