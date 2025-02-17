@@ -17,12 +17,13 @@ class Solution:
                 i += 1
                 j -= 1
             else:
-                if checkPalindrome(i, j-1) == True:
-                    return True 
-                elif checkPalindrome(i+1, j) == True:
-                    return True
-                else:
-                    return False
+                # if checkPalindrome(i, j-1) == True:
+                #     return True 
+                # elif checkPalindrome(i+1, j) == True:
+                #     return True
+                # else:
+                #     return False
+                return checkPalindrome(i, j-1) or checkPalindrome(i+1, j)
 
         return True 
 
