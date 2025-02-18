@@ -4,15 +4,10 @@ class Solution:
         j = 0 
         ans = ''
         while i < len(word1) or j < len(word2):
-            if i < len(word1) and j < len(word2):
-                ans += word1[i]
-                ans += word2[j]
-                i += 1
-                j += 1
-            elif i < len(word1):
+            if i < len(word1):
                 ans += word1[i]
                 i += 1
-            else:
+            if j < len(word2):
                 ans += word2[j]
                 j += 1
         return ans         
