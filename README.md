@@ -93,6 +93,7 @@
 | [0344-reverse-string](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [1894-merge-strings-alternately](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
@@ -139,6 +140,7 @@
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [1894-merge-strings-alternately](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Hash Table
 |  |
 | ------- |
