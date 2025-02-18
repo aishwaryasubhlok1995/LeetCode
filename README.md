@@ -13,6 +13,7 @@
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
+| [0088-merge-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0090-subsets-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
@@ -84,6 +85,7 @@
 | [0015-3sum](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -96,6 +98,7 @@
 | [0015-3sum](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
