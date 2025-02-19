@@ -4,14 +4,14 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        dict = {}
-        for i in range(len(strs)):
+        hm = {}
+        for i in strs:
+            ans = [0]*26
             res = []
-            sortedString = ''.join(sorted(strs[i]))
-            if sortedString in dict.keys():
-                res = dict.get(sortedString)
-            else:
-                dict[sortedString] = res
-            res.append((strs[i]))
-        return dict.values()
+            for c in i:
+                ans[ord(c) - ord("a")] += 1
+            if tuple(ans) not in hm:
+                hm[tuple(ans)] = [] 
+            hm[tuple(ans)].append(i) 
+        return hm.values()
             
