@@ -8,6 +8,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
@@ -99,6 +100,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0088-merge-sorted-array) |
@@ -132,6 +134,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
@@ -145,6 +148,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0219-contains-duplicate-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
