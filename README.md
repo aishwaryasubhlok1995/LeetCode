@@ -20,6 +20,7 @@
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -59,6 +60,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0189-rotate-array) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Binary Search
 |  |
@@ -91,6 +93,7 @@
 | [0125-valid-palindrome](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
