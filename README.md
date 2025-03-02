@@ -11,6 +11,7 @@
 | [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0057-insert-interval) |
+| [0073-set-matrix-zeroes](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
@@ -54,6 +55,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
 | [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
@@ -158,6 +160,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0219-contains-duplicate-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0460-lfu-cache](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0460-lfu-cache) |
