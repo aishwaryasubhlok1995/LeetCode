@@ -6,17 +6,14 @@ class MyStack:
 
     def push(self, x: int) -> None:
         self.queue1.append(x)
+        for i in range(len(self.queue1)-1):
+            self.queue1.append(self.queue1.popleft())
 
     def pop(self) -> int:
-        queue2 = deque()
-        while len(self.queue1) > 1:
-            queue2.append(self.queue1.popleft())
-        ans = self.queue1.popleft()
-        self.queue1 = queue2
-        return ans 
+        return self.queue1.popleft()
 
     def top(self) -> int:
-        return self.queue1[-1]
+        return self.queue1[0]
         
     def empty(self) -> bool:
         print(self.queue1)
