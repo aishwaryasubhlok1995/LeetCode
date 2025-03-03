@@ -170,6 +170,7 @@
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0271-encode-and-decode-strings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0460-lfu-cache](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0460-lfu-cache) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -205,6 +206,7 @@
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0143-reorder-list) |
 | [0225-implement-stack-using-queues](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -271,4 +273,5 @@
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
