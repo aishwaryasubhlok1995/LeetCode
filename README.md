@@ -40,6 +40,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-koko-eating-bananas](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [0917-boats-to-save-people](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0948-sort-an-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 ## Depth-First Search
@@ -106,6 +107,7 @@
 | [0344-reverse-string](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0917-boats-to-save-people](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0917-boats-to-save-people) |
 | [1894-merge-strings-alternately](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
@@ -118,6 +120,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
+| [0917-boats-to-save-people](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0948-sort-an-array) |
 ## Dynamic Programming
 |  |
@@ -198,6 +201,7 @@
 | [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0917-boats-to-save-people](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0917-boats-to-save-people) |
 ## Counting
 |  |
 | ------- |
