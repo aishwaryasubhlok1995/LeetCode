@@ -10,6 +10,7 @@
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -127,6 +128,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0091-decode-ways) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -182,6 +184,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
