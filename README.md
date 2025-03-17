@@ -49,11 +49,13 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -291,9 +293,11 @@
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
