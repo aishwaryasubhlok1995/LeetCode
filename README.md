@@ -49,10 +49,12 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0079-word-search) |
+| [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0542-01-matrix) |
@@ -286,4 +288,12 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0232-implement-queue-using-stacks) |
+## Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
