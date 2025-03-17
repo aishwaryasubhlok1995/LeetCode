@@ -37,6 +37,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 | [0747-min-cost-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-koko-eating-bananas](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0907-koko-eating-bananas) |
@@ -86,6 +87,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Randomized
 |  |
@@ -171,6 +173,7 @@
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0219-contains-duplicate-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0460-lfu-cache](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0460-lfu-cache) |
+| [0560-subarray-sum-equals-k](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Design
