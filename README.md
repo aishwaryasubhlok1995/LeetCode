@@ -36,6 +36,7 @@
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0542-01-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
@@ -176,6 +177,7 @@
 | [0073-set-matrix-zeroes](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0139-word-break](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0139-word-break) |
 | [0219-contains-duplicate-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0219-contains-duplicate-ii) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0460-lfu-cache](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0460-lfu-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
