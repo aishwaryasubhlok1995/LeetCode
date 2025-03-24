@@ -34,6 +34,7 @@
 | [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
+| [0384-shuffle-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0384-shuffle-an-array) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -75,6 +76,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0189-rotate-array) |
+| [0384-shuffle-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0384-shuffle-an-array) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Binary Search
 |  |
@@ -97,6 +99,7 @@
 ## Randomized
 |  |
 | ------- |
+| [0384-shuffle-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0384-shuffle-an-array) |
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Two Pointers
 |  |
@@ -188,6 +191,7 @@
 | [0225-implement-stack-using-queues](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0271-encode-and-decode-strings](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0271-encode-and-decode-strings) |
+| [0384-shuffle-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0384-shuffle-an-array) |
 | [0460-lfu-cache](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0460-lfu-cache) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Divide and Conquer
