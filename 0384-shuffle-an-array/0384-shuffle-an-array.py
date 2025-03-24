@@ -9,7 +9,7 @@ class Solution:
         return self.original 
         
     def shuffle(self) -> List[int]:
-        for i in range(len(self.original)):
+        for i in range(len(self.temp)):
             idx = random.randint(i, len(self.temp)-1)
             self.temp[idx], self.temp[i] = self.temp[i], self.temp[idx]
         return self.temp
