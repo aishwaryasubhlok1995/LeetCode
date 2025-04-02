@@ -20,7 +20,6 @@ class Solution:
                 for c in str(count):
                     chars[j] = c
                     j += 1
-                return j
         return j
 
 
