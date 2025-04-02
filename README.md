@@ -47,6 +47,7 @@
 | [0917-boats-to-save-people](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0948-sort-an-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2832-find-the-longest-equal-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/2832-find-the-longest-equal-subarray) |
 ## Depth-First Search
 |  |
@@ -63,6 +64,7 @@
 | [0322-coin-change](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0542-01-matrix) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Matrix
 |  |
 | ------- |
@@ -72,6 +74,7 @@
 | [0289-game-of-life](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0289-game-of-life) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0542-01-matrix) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Math
 |  |
 | ------- |
