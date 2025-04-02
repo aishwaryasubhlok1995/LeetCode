@@ -5,8 +5,12 @@ class Solution:
         charSet = set()
 
         def overlap(charSet, s):
-            c = Counter(charSet) + Counter(s)
-            return max(c.values()) > 1
+            seen = set()
+            for c in s:
+                if c in charSet or c in seen:
+                    return True  # Duplicate found in existing set or within the string itself
+                seen.add(c)
+            return False  # No duplicates
 
         def backtrack(i):
             if i == len(arr):
