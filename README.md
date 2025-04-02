@@ -47,6 +47,7 @@
 | [0917-boats-to-save-people](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0948-sort-an-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [2832-find-the-longest-equal-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/2832-find-the-longest-equal-subarray) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -91,6 +92,7 @@
 | [0912-random-pick-with-weight](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [2832-find-the-longest-equal-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/2832-find-the-longest-equal-subarray) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -185,6 +187,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0621-task-scheduler) |
 | [1023-time-based-key-value-store](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [2832-find-the-longest-equal-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/2832-find-the-longest-equal-subarray) |
 ## Design
 |  |
 | ------- |
@@ -271,6 +274,7 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/0219-contains-duplicate-ii) |
+| [2832-find-the-longest-equal-subarray](https://github.com/aishwaryasubhlok1995/LeetCode/tree/master/2832-find-the-longest-equal-subarray) |
 ## Doubly-Linked List
 |  |
 | ------- |
