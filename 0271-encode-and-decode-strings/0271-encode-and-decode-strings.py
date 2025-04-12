@@ -4,8 +4,8 @@ class Codec:
         """
         enStr = ''
         for i in range(len(strs)):
-            strs[i] = strs[i].replace('*', '**')
-            enStr += strs[i] + '*:'
+            strs[i] = strs[i].replace('#', '##')
+            enStr += strs[i] + '#?'
         print(enStr)
         return enStr
 
@@ -16,12 +16,12 @@ class Codec:
         j = 0
         curr = ''
         while j<len(s):
-            if s[j] != '*':
+            if s[j] != '#':
                 curr += s[j]
                 j += 1
             else:
-                if s[j + 1] == '*':
-                    curr += '*'
+                if s[j + 1] == '#':
+                    curr += '#'
                 else: 
                     ans.append(curr)
                     curr = ''
