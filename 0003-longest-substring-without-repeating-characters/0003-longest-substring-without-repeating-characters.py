@@ -10,6 +10,7 @@ class Solution:
                 j += 1
                 ans = max(ans, len(sSet))
             else:
+                ans = max(ans, len(sSet))
                 sSet.remove(s[i])
                 i += 1
         return ans
